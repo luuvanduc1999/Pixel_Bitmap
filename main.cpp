@@ -173,6 +173,7 @@ Bitmap& Bitmap::operator=(const Bitmap &bmp)
 int main()
 {
     Pixel p(0,60,120);
+    cout<<"GrayScale: "<<p.GrayScale()<<endl;
     cout<<p+Pixel(10,10,10);
 
     Bitmap A;
