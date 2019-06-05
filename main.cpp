@@ -176,7 +176,7 @@ Bitmap& Bitmap::operator=(const Bitmap &bmp)
      for(int i=0; i<height; i++)
         for(int j=0; j<width;j++)
             data[i][j]=bmp.data[i][j];
-
+    return *this
 }
 
 
