@@ -26,11 +26,11 @@ public:
 
 Pixel::Pixel(int value)
 {
-    R=value%255;
-    value/=255;
-    G=value%255;
-    value/=255;
-    B=value%255;
+    R=value%256;
+    value/=256;
+    G=value%256;
+    value/=256;
+    B=value%256;
 }
 
 int Pixel::GrayScale() const
